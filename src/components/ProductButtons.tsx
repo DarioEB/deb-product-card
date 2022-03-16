@@ -39,7 +39,7 @@ export const ProductButtons = ({className, style}: ProductButtonsProps) => {
 
       <button
         className={`${styles.buttonAdd} ${ isMaxReached() && styles.disabled}`}
-        onClick={() => increaseBy(+1)}
+        onClick={() => increaseBy(+2)}
       >+</button>
     </div>
   )
